@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/* font-family: 'Libre Baskerville', serif; */
+
+/* #041562
+#11468F
+#DA1212*/
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+.tituloBanner {
+margin: auto;
+}
+
+html{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 60.5%;
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+h2{
+    font-size: 410m;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+/* header */
+
+
+header{
+    margin: 0px 0px 20px 0px;
+    padding:0px 5px 10px 0px;
+   background-color:rgb(153, 82, 41);
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+}
+header img{
+    width: 150px;  
+}
+
+
+header ul{
+    
+    list-style-type: none;
+
+}
+
+header a{
+    color: #030303;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+}
+
+
+/* main index */
+
+.banner{
+    text-align: center;
+    height: 500px;
+    width: max-content;
+    background-image: url(../medios/banner.jpg);
+    background-size: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    color: #000000;
+}
+
+.textoBanner{
+    font-size: 2rem;
+}
+
+.tituloBanner{
+    font-size: 5rem;
+}
+
+/* section vectores */
+
+.presentacion{
+    font-size: 3rem;
+}
+.presentacion h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #c2947e 
+    
+}
+.presentacion p{
+    color: #c2947e;
+}
+.divPadreFlex{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.presentacion img{
+    width: 600px;
+    
+}
+
+
+/* Footer */
+
+footer{
+    background-color: rgb(153, 82, 41);
+    color: white;
+    
+}
+footer img, svg{
+    width: 50px;
+}
+
+.logoTelefono{
+    margin-left: 10px;
+
+}
+footer div{
+   width: 30%;
+}
+
+footer .logoFacebook{
+    background-color: rgb(255, 149, 0);
+}
+footer .logoInstagram{
+    background-color: rgb(255, 149, 0);
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">

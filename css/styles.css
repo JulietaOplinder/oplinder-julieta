@@ -4,133 +4,99 @@
 /* #041562
 #11468F
 #DA1212*/
- *{
-    padding: 0;
+
+body, h1, h2, h3, p, ul, li, a {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
- }
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner img {
+    width: 50px; /* logo perrito header*/
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 30px;
+}
+
+.menu a {
+    text-decoration:hsl(from color h s l)
+    color: #ff;
+    font-weight: bold;
+}
+
+main {
+    padding: 50px 100px 50px 300px;
+}
 
 .tituloBanner {
-margin: auto;
+    text-align: 50px 100px 50px 00px;
 }
 
-html{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 60.5%;
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
-h1{
-    font-size: 5rem;
+
+.presentacion div {
+    flex: 1;
+    margin: 0 10px;
     text-align: center;
 }
-h2{
-    font-size: 410m;
+
+.presentacion img {
+    width: 100%; /* Ajusta el tamaño según sea necesario */
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
-p{
-    font-size: 1.5em;
-}
-
-/* header */
-
-
-header{
-    margin: 0px 0px 20px 0px;
-    padding:0px 5px 10px 0px;
-   background-color:rgb(153, 82, 41);
-display: flex;
-flex-direction:row;
-justify-content: space-between;
-}
-header img{
-    width: 150px;  
-}
-
-
-header ul{
-    
-    list-style-type: none;
-
-}
-
-header a{
-    color: #030303;
+.presentacion nav a {
     text-decoration: none;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
 }
 
+.presentacion p {
+    color: #555;
+}
 
-/* main index */
-
-.banner{
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
     text-align: center;
-    height: 500px;
-    width: max-content;
-    background-image: url(../medios/banner.jpg);
-    background-size: center;
-    background-position: bottom;
-    background-repeat: no-repeat;
-  
-    text-shadow: 1px -1px 25px rgb(0, 0, 0);
-    color: #000000;
 }
 
-.textoBanner{
-    font-size: 2rem;
+footer img {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    margin-right: 10px;
 }
 
-.tituloBanner{
-    font-size: 5rem;
+.logoFacebook {
+    width: 25px; /* Ajusta el tamaño según sea necesario */
 }
 
-/* section vectores */
-
-.presentacion{
-    font-size: 3rem;
+.logoInstagram {
+    width: 25px; /* Ajusta el tamaño según sea necesario */
 }
-.presentacion h2{
-    text-align: center;
-    text-decoration: underline;
-    color: #c2947e 
-    
-}
-.presentacion p{
-    color: #c2947e;
-}
-.divPadreFlex{
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.presentacion img{
-    width: 600px;
-    
-}
-
-
-/* Footer */
-
-footer{
-    background-color: rgb(153, 82, 41);
-    color: white;
-    
-}
-footer img, svg{
-    width: 50px;
-}
-
-.logoTelefono{
-    margin-left: 10px;
-
-}
-footer div{
-   width: 30%;
-}
-
-footer .logoFacebook{
-    background-color: rgb(255, 149, 0);
-}
-footer .logoInstagram{
-    background-color: rgb(255, 149, 0);
-}
-
